@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/noscript.css">
+    
     <title>Kenya Chan</title>
 </head>
-<body>
+<body onload="getDetails()">
     <div class="wallpaper"></div>
     <div class="content">
         <img 
@@ -28,18 +29,19 @@
         />
         <aside class="bio" id="personal-info">
             <div class="name">
-                <h1 class="name-text">Kenya Chan</h1>
+                <h1 class="name-text" id="name-text">Kenya Chan</h1>
             </div>
             <div class="position">
                 <p class="position-text">Project Officer</p>
             </div>
             <div class="description">
-                <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="description-text" id="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <ul class="social">
                 <li>
                     <a 
-                        href="https://github.com/kenyachan" 
+                        id="github-link"
+                        href="" 
                         target="_blank" 
                         rel="noopener"
                         >
@@ -67,5 +69,7 @@
             </ul>
         </aside>
     </div>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
