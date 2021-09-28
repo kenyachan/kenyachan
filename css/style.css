@@ -72,10 +72,14 @@ html {
   transform: scale(1.1);
 }
 
-/* Response layout - makes a one column-layout when display is less than 480px */
+/* Response layout - makes a one column-layout when display is less than 50px */
 @media (max-width : 50rem) {
   .content {
     flex-direction: column;
+  }
+  
+  .picture {
+    margin-top: 1.5rem;
   }
 
   .bio {
