@@ -1,6 +1,10 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 17px;
+}
+
 .content {
-  width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,34 +15,29 @@
   max-height: 20rem;
   max-width: 20rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right: 1.5em;
+  margin-right: 1.5rem;
 }
 
 .bio {
   position: relative;
-  margin-left: 1.5em;
-}
-
-.name-text {
-  font-weight: bolder;
+  margin-left: 1.5rem;
 }
 
 .position-text {
-  color: grey;
-  font-weight: bolder;
+  font-size: 1.15rem;
 }
 
 /* Description container */
 .description {
-  width: 25vw;
-  max-width: 30em;
+  width: 25rem;
+  max-width: 30rem;
 }
 
 /* Social list container */
 .social {
   display: flex;
   margin-top: 1.5rem;
-
+  padding: 0;
 }
 
 /* Social list items */
@@ -76,8 +75,12 @@
 }
 
 /* Response layout - makes a one column-layout when display is less than 480px */
-@media (max-width : 480px) {
-  .card {
+@media (max-width : 50rem) {
+  .content {
     flex-direction: column;
   }
-} 
+
+  .bio {
+    margin-top: 1.5rem;
+  }
+}
