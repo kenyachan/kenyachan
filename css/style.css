@@ -27,8 +27,8 @@ html {
 
 /* Description container */
 .description {
-  width: 25rem;
-  max-width: 30rem;
+  width: 100vw;
+  max-width: 25rem;
 }
 
 /* Social list container */
