@@ -1,9 +1,27 @@
 function getDetails() {
-    fetch(`https://api.github.com/users/kenyachan`)
-    .then(response=>response.json().then(data=> {
-        //console.log(data);
-        document.getElementById('name-text').innerHTML=data.name;
-        document.getElementById('description-text').innerHTML=data.bio;
-        document.getElementById('github-link').setAttribute('href', data.html_url)
-    }))
+    getBio();
+}
+
+function getBio() {
+    fetch('txt/position-text')
+    .then(response=>response.text())
+    .then(data => {
+        document.getElementById('position-text').innerHTML=data; 
+    })
+
+    var bio;
+
+    fetch('txt/bio-text')
+    .then(response=>response.text())
+    .then(data => {
+        bio = data.split(/\r?\n/);
+
+        bio.forEach(element => {
+            var tag = document.createElement("p");
+            var text = document.createTextNode(element);
+
+            tag.appendChild(text);
+            document.getElementById('description').appendChild(tag);
+        });
+    })
 }
