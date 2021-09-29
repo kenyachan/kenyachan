@@ -66,11 +66,28 @@ html {
 .social a:hover {
   opacity: 1;
   transform: scale(1.25);
+  color: #0071e3;
 }
 
 .social a:active {
   opacity: 1;
   transform: scale(1.1);
+}
+
+.button {
+  background-clip: border-box;
+  background-color: #0071e3;
+  border-radius: 980px;
+  padding: 8px 16px;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(0, 119, 237);
+  color: rgb(255, 255, 255);
 }
 
 /* Response layout - makes a one column-layout when display is less than 50px */
