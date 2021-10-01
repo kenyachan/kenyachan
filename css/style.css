@@ -79,6 +79,10 @@ html {
   color: #0071e3;
 }
 
+.button-box {
+  display: flex;
+}
+
 .button {
   background-clip: border-box;
   background-color: #0071e3;
@@ -108,6 +112,10 @@ html {
   .bio {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+
+  .button-box {
+    justify-content: center;
   }
 }
 
