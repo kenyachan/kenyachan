@@ -114,8 +114,17 @@ html {
     margin-bottom: 1.5rem;
   }
 
+  .name-text, .position-text, .description-paragraph{
+    text-align: center;
+  }
+
   .button-box {
     justify-content: center;
+  }
+
+  .social {
+    justify-content: center;
+    padding-left: 1rem;
   }
 }
 
