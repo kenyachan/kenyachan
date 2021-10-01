@@ -17,10 +17,12 @@ html {
   max-height: 20rem;
   max-width: 20rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 1.5rem;
 }
 
 .bio {
   position: relative;
+  margin-left: 1.5rem;
 }
 
 .position-text {
@@ -100,18 +102,20 @@ html {
 }
 
 /* Response layout - makes a one column-layout when display is less than 50px */
-@media (max-width : 50rem) {
+@media screen and (max-width: 50rem) {
   .content {
     flex-direction: column;
   }
   
   .picture {
     margin-top: 1.5rem;
+    margin-right: 0rem;
   }
 
   .bio {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    margin-left: 0rem;
   }
 
   .name-text, .position-text, .description-paragraph{
@@ -125,15 +129,5 @@ html {
   .social {
     justify-content: center;
     padding-left: 1rem;
-  }
-}
-
-@media (min-width : 50rem) {
-  .picture {
-    margin-right: 1.5rem;
-  }
-
-  .bio {
-    margin-left: 1.5rem;
   }
 }
