@@ -36,46 +36,30 @@ html {
   max-width: 25rem;
 }
 
-/* Social list container */
-.social {
+.socials {
   display: flex;
-  margin-top: 1.5rem;
-  padding: 0;
-}
-
-/* Social list items */
-.social li {
-  margin-right: 0.5rem;
-  margin-bottom: 1rem;
-  width: 2rem;
-  height: 2rem;
-  
-  list-style-type: none;
-}
-
-/* Social links */
-.social a { 
-  display: flex;
-  align-items: center;
   justify-content: center;
+  margin-top: -1rem;
+}
+
+.socials a {
+  margin: 0.5rem;
+  
   font-size: 2rem;
-  opacity: 0.5;
-  width: 2rem;
-  height: 2rem;
   transition-property: opacity, transform;
   will-change: opacity, transform;
-  color: black;
-  text-decoration: none;
   transform: scale(0.75);
+  opacity: 0.5;
+  color: black;
 }
 
-.social a:hover {
+.socials a:hover {
   opacity: 1;
   transform: scale(1);
   color: #0071e3;
 }
 
-.social a:active {
+.socials a:active {
   opacity: 1;
   transform: scale(1);
   color: #0071e3;
