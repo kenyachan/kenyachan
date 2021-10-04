@@ -20,8 +20,6 @@ function getBio() {
             var tag = document.createElement("p");
             var text = document.createTextNode(element);
 
-            tag.setAttribute('class', 'description-paragraph');
-
             tag.appendChild(text);
             document.getElementById('description').appendChild(tag);
         });

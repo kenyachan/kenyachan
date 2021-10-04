@@ -101,7 +101,7 @@ html {
     margin-left: 0rem;
   }
 
-  .name-text, .position-text, .description-paragraph{
+  .name-text, .position-text, .description p {
     text-align: center;
   }
 
