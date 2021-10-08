@@ -3,6 +3,7 @@ html {
   font-size: 17px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 .content {
@@ -21,6 +22,9 @@ html {
 }
 
 .bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
   margin-left: 1.5rem;
 }
@@ -38,8 +42,12 @@ html {
 
 .socials {
   display: flex;
-  margin-top: -1rem;
-  margin-left: -0.5rem;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  
+  /* margin-top: -1rem;
+  margin-left: -0.5rem; */
 }
 
 .socials a {
@@ -106,6 +114,11 @@ html {
   }
 
   .socials {
+    flex-direction: row;
+    position: inherit;
+    right: auto;
+    margin-top: -1rem;
+
     justify-content: center;
     margin-left: 0rem;
   }
