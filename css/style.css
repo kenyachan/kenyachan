@@ -27,6 +27,7 @@ html {
   justify-content: center;
   position: relative;
   margin-left: 1.5rem;
+  margin-right: 2.5rem;
 }
 
 .position-text {
@@ -107,6 +108,7 @@ html {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     margin-left: 0rem;
+    margin-right: 0rem;
   }
 
   .name-text, .position-text, .description p {
