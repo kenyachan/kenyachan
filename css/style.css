@@ -6,14 +6,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.content {
+main {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.picture {
+.picture-image {
   border-radius: 290486px;
   max-height: 20rem;
   max-width: 20rem;
@@ -30,9 +30,14 @@ html {
   margin-right: 2.5rem;
 }
 
-.position-text {
+#bio-header h1 {
+  margin-bottom: 0.2rem;
+}
+
+#bio-header h2 {
   font-size: 1.15rem;
   font-weight: 450;
+  margin-bottom: 1rem;
 }
 
 /* Description container */
@@ -95,13 +100,14 @@ html {
 
 /* Response layout - makes a one column-layout when display is less than 50px */
 @media screen and (max-width: 50rem) {
-  .content {
+  main {
     flex-direction: column;
   }
   
-  .picture {
+  .picture-image {
     margin-top: 1.5rem;
     margin-right: 0rem;
+    
   }
 
   .bio {
@@ -111,7 +117,7 @@ html {
     margin-right: 0rem;
   }
 
-  .name-text, .position-text, .description p {
+  #bio-header, .description p {
     text-align: center;
   }
 

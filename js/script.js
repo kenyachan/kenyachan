@@ -21,7 +21,7 @@ function getBio() {
             var text = document.createTextNode(element);
 
             tag.appendChild(text);
-            document.getElementById('description').appendChild(tag);
+            document.getElementById('description-text').appendChild(tag);
         });
     })
 }

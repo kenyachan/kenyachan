@@ -11,11 +11,13 @@
     <title>Kenya Chan</title>
 </head>
 <body onload="getDetails()">
-    <div class="wallpaper"></div>
-    <div class="content">
-        <img 
-            id="pictureImage"
-            class="picture"
+    <header>
+
+    </header>
+    <main>
+        <figure id="bio-picture">
+            <img 
+            class="picture-image"
             src="img/Kenya-320x320.jpg" 
             srcset="
                 img/Kenya-320x320.jpg   1x,
@@ -26,17 +28,15 @@
             alt="Portrait of Kenya"
             width="320"
             height="320"
-        />
-        <aside class="bio" id="personal-info">
-            <div class="name">
-                <h1 class="name-text" id="name-text">Kenya Chan</h1>
-            </div>
-            <div class="position">
-                <p class="position-text" id="position-text"></p>
-            </div>
-            <div class="description" id="description">
-            </div>
-
+            />    
+        </figure>
+        <aside class="bio">
+            <header id="bio-header">
+                <h1>Kenya Chan</h1>
+                <h2 id="position-text"></h2>
+            </header>
+            <section class="description" id="description-text">
+            </section>
             <div class="socials">
                 <a 
                     class="social-link"
@@ -63,12 +63,16 @@
                     <span class="fab fa-twitter"></span>
                 </a>
             </div>
-
-            <div class="button-box">
-                <a class="button" href="mailto:kenya.chan+SiteContact@gmail.com">Contact me</a>
-            </div>
+            <footer>
+                <div class="button-box">
+                    <a class="button" href="mailto:kenya.chan+SiteContact@gmail.com">Contact me</a>
+                </div>
+            </footer>
         </aside>
-    </div>
+    </main>
+    <footer>
+
+    </footer>
     <script src="js/script.js"></script>
 </body>
 
