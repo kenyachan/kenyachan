@@ -85,38 +85,6 @@ main {
   color: #1DA1F2;
 }
 
-/* .socials {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 1%;
-  
-  margin-top: -1rem;
-  margin-left: -0.5rem;
-}
-
-.socials a {
-  margin: 0.5rem;
-  font-size: 2rem;
-  transition-property: opacity, transform;
-  will-change: opacity, transform;
-  transform: scale(0.75);
-  opacity: 0.5;
-  color: black;
-}
-
-.socials a:hover {
-  opacity: 1;
-  transform: scale(1);
-  color: #0071e3;
-}
-
-.socials a:active {
-  opacity: 1;
-  transform: scale(1);
-  color: #0071e3;
-} */
-
 .button-box {
   display: flex;
 }
