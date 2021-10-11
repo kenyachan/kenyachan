@@ -46,14 +46,53 @@ main {
   max-width: 25rem;
 }
 
-.socials {
+.socials-list {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.socials-list li {
+  font-size: 2rem;
+  transition-property: opacity, transform;
+  will-change: opacity, transform;
+  transform: scale(0.75);
+  opacity: 0.5;
+  margin: 0.5rem;
+}
+
+.socials-list a {
+  color: black;
+}
+
+.socials-list li:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fa-github:hover {
+  color: #171515;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+/* .socials {
   display: flex;
   flex-direction: column;
   position: fixed;
   right: 1%;
   
-  /* margin-top: -1rem;
-  margin-left: -0.5rem; */
+  margin-top: -1rem;
+  margin-left: -0.5rem;
 }
 
 .socials a {
@@ -76,7 +115,7 @@ main {
   opacity: 1;
   transform: scale(1);
   color: #0071e3;
-}
+} */
 
 .button-box {
   display: flex;
@@ -121,12 +160,10 @@ main {
     text-align: center;
   }
 
-  .socials {
+  .socials-list {
     flex-direction: row;
     position: inherit;
     right: auto;
-    margin-top: -1rem;
-
     justify-content: center;
     margin-left: 0rem;
   }
