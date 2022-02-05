@@ -1,4 +1,8 @@
-### Hi there 👋
+### Hi, I'm Kenya. I'm a Project Officer working at the University of Technology Sydney. 
+
+I create and update process maps which are used to identify areas for improvement.
+
+I am also the principal developer on the Robotic Process Automation project, with the goal of identifying and automating manual processes to improve the student experience by reducing turn around times.
 
 <!--
 **kenyachan/kenyachan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
