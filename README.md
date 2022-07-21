@@ -4,6 +4,7 @@ I work on projects within the Lifetime Learner Experience Unit (formerly Student
 
 I am also the principal developer on the Robotic Process Automation project which automates processes within the LLE Unit.
 
+I am currently building my [portfolio page](https://kenyachan.dev), and a [magic eightball site](https://magic8ball.kenyachan.dev/).
 
 <!--
 **kenyachan/kenyachan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
