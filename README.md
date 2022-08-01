@@ -1,10 +1,13 @@
-### Hi, I'm Kenya. I'm a Project Officer working at the University of Technology Sydney. 
+# Hi, I'm Kenya. I'm a Project Officer working at the University of Technology Sydney
 
 I work on projects within the Lifetime Learner Experience Unit (formerly Student Administration Unit) with a goal of streamlining and improving processes to improve the a Learner's experience.
 
 I am also the principal developer on the Robotic Process Automation project which automates processes within the LLE Unit.
 
-I am currently building my [portfolio page](https://kenyachan.dev), and a [magic eightball site](https://magic8ball.kenyachan.dev/).
+- 🔭 I’m currently working on my [portfolio page](https://kenyachan.dev), and a [magic eightball site](https://magic8ball.kenyachan.dev/).
+- 🌱 I’m currently learning how to build APIs using Express and NodeJS.
+
+## Skills
 
 <!--
 **kenyachan/kenyachan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
