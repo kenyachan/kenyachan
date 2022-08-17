@@ -5,9 +5,17 @@ I work on projects within the Lifetime Learner Experience Unit (formerly Student
 I am also the principal developer on the Robotic Process Automation project which automates processes within the LLE Unit.
 
 - 🔭 I’m currently working on my [portfolio page](https://kenyachan.dev), and a [magic eightball site](https://magic8ball.kenyachan.dev/).
-- 🌱 I’m currently learning how to build APIs using Express and NodeJS.
+- 🌱 I’m currently learning Web Development via [The Odin Project](https://theodinproject.com)
 
 ## Skills
+
+[![My Skills](https://skills.thijs.gg/icons?i=html&theme=dark)](https://www.w3schools.com/whatis/whatis_html.asp)
+[![My Skills](https://skills.thijs.gg/icons?i=css&theme=dark)](https://www.w3schools.com/whatis/whatis_css.asp)
+[![My Skills](https://skills.thijs.gg/icons?i=js&theme=dark)](https://www.w3schools.com/whatis/whatis_js.asp)
+[![My Skills](https://skills.thijs.gg/icons?i=nodejs&theme=dark)](https://nodejs.dev/)
+[![My Skills](https://skills.thijs.gg/icons?i=vim&theme=dark)](https://www.vim.org/)
+[![My Skills](https://skills.thijs.gg/icons?i=git&theme=dark)](https://git-scm.com/)
+[![My Skills](https://skills.thijs.gg/icons?i=md&theme=dark)](https://en.wikipedia.org/wiki/Markdown)
 
 <!--
 **kenyachan/kenyachan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
