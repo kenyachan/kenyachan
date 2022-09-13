@@ -4,8 +4,10 @@ I work on projects within the Lifetime Learner Experience Unit (formerly Student
 
 I am also the principal developer on the Robotic Process Automation project which automates processes within the LLE Unit.
 
-- 🔭 I’m currently working on my [portfolio page](https://kenyachan.dev), and a [magic eightball site](https://magic8ball.kenyachan.dev/).
-- 🌱 I’m currently learning Web Development via [The Odin Project](https://theodinproject.com)
+- 🔭 I’m currently working on becoming a Full Stack Developer by taking the course on [The Odin Project](https://theodinproject.com)
+- 🌱 I’m currently taking the [Full Stack JavaScript path](https://www.theodinproject.com/paths/full-stack-javascript?)
+
+You can see my projects below in their repositories or view them on my [portfolio site](https://kenyachan.dev).
 
 ## Skills
 
