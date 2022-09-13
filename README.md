@@ -7,7 +7,7 @@ I am also the principal developer on the Robotic Process Automation project whic
 - 🔭 I’m currently working on becoming a Full Stack Developer by taking the course on [The Odin Project](https://theodinproject.com)
 - 🌱 I’m currently taking the [Full Stack JavaScript path](https://www.theodinproject.com/paths/full-stack-javascript?)
 
-You can see my projects below in their repositories or view them on my [portfolio site](https://kenyachan.dev).
+You can see my projects below in their repositories or view them on my [portfolio site](https://kenyachan.dev/).
 
 ## Skills
 
